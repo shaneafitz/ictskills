@@ -1,0 +1,16 @@
+{{#each assessments}}
+  <table class="center aligned ui celled table">
+    <thead>
+      <tr>
+        {{> assessment-header}}   
+      </tr>
+    </thead>
+      <tbody>
+        {{#each measurement}}
+          <tr>
+         {{> assessment-measurements}} 
+          </tr>
+        {{/each}}
+      </tbody>
+  </table>  
+{{/each}}
