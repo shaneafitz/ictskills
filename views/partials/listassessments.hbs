@@ -1,16 +1,14 @@
-{{#each assessments}}
-  <table class="center aligned ui celled table">
+<table class="center aligned ui celled table">
     <thead>
       <tr>
         {{> assessment-header}}   
       </tr>
     </thead>
       <tbody>
-        {{#each measurement}}
+        {{#each assessments}}
           <tr>
          {{> assessment-measurements}} 
           </tr>
         {{/each}}
       </tbody>
-  </table>  
-{{/each}}
+</table>  
