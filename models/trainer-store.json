@@ -1,0 +1,16 @@
+{
+  "trainers": [
+    {
+      "name": "Maggie Simpson",
+      "email": "maggie@simpson.com",
+      "password": "secret",
+      "id": "4"
+    },
+    {
+      "name": "Abe Simpson",
+      "email": "abe@simpson.com",
+      "password": "secret",
+      "id": "5"
+    }
+  ]
+}

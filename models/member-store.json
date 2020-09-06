@@ -1,12 +1,54 @@
 {
-  "member": {
-    "id": "06",
-    "name": "Homer Simpson",
-    "email": "homer@simpson.com",
-    "password": "secret",
-    "address": "Springfield",
-    "gender": "male",
-    "height": "1.79",
-    "startingWeight": "105"
-  }
+  "members": [
+    {
+      "name": "Homer Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "address": "Springfield",
+      "gender": "male",
+      "height": "1.80",
+      "startingweight": "105",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "name": "Marge Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "address": "Springfield",
+      "gender": "female",
+      "height": "1.60",
+      "startingweight": "70",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "name": "Shane Fitzpatrick",
+      "email": "fitzpatrick.shane@gmail.com",
+      "password": "secret",
+      "address": "Cork",
+      "gender": "Male",
+      "height": "1.78",
+      "startingweight": "100",
+      "id": "91d3e710-eee0-11ea-b0d1-5f52db2dab20"
+    },
+    {
+      "name": "Lionel Hutz",
+      "email": "lionel@simpson.com",
+      "password": "secret",
+      "address": "Springfield",
+      "gender": "Male",
+      "height": "178",
+      "startingweight": "85",
+      "id": "633ec350-f07c-11ea-8f22-9367bc59a350"
+    },
+    {
+      "name": "Sharon Lucey",
+      "email": "sharon@lucey.com",
+      "password": "secret",
+      "address": "Cork",
+      "gender": "Female",
+      "height": "1.58",
+      "startingweight": "55",
+      "id": "9fbdabc0-f07c-11ea-8f22-9367bc59a350"
+    }
+  ]
 }

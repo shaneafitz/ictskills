@@ -1,0 +1,13 @@
+<div class="ui relaxed divided list">
+    {{#each members}}
+    <div class="item">
+        <i class="large running icon middle aligned"></i>
+        <div class="content">
+            <div class="first header">
+                {{name}}                       
+            </div>
+            <div> <a href="/trainerdashboard/{{id}}/trainerassessmentview">Click to view member's assessments</a> </div>            
+        </div>
+    </div>
+    {{/each}}
+</div>

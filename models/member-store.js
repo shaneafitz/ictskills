@@ -1,5 +1,32 @@
-'use strict';
+"use strict";
 
-const member = require('./member-store.json').member;
+const _ = require("lodash");
+const JsonStore = require("./json-store");
 
-module.exports = member;
+const memberStore = {
+  store: new JsonStore("./models/member-store.json", { members: [] }),
+  collection: "members",
+
+  getAllMembers() {
+    return this.store.findAll(this.collection);
+  },
+
+  addMember(member) {
+    this.store.add(this.collection, member);
+    this.store.save();
+  },
+
+  getMember(id) {
+    return this.store.findOneBy(this.collection, { id: id });
+  },
+
+  getMemberById(id) {
+    return this.store.findOneBy(this.collection, { id: id });
+  },
+
+  getMemberByEmail(email) {
+    return this.store.findOneBy(this.collection, { email: email });
+  }
+};
+
+module.exports = memberStore;

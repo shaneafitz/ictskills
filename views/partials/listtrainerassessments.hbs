@@ -1,0 +1,21 @@
+{{#each assessments}}  
+<table class="center aligned ui celled table">
+ <thead>
+      <tr>
+        {{> assessment-header}}   
+      </tr>    
+    </thead>
+      <tbody>        
+          <tr>
+         {{> assessment-measurements}} 
+          </tr>        
+      </tbody> 
+  </table> 
+<form class="ui stacked segment form >
+  <div class="field">
+    <label>Comments</label>
+    <input placeholder="Add Comment" type="text" name="comment">
+  </div>
+  <button class="ui blue submit button">Submit</button>
+</form>
+{{/each}}
